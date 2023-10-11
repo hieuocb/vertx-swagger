@@ -18,6 +18,7 @@ public class MainVerticle extends AbstractVerticle {
         startPromise.fail(result.cause());
       }
     });
+
   }
 
   @Override

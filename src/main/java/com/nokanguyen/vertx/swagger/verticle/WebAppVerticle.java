@@ -2,6 +2,7 @@ package com.nokanguyen.vertx.swagger.verticle;
 
 import com.google.common.collect.ImmutableSet;
 import com.google.common.reflect.ClassPath;
+import com.nokanguyen.vertx.swagger.MainVerticle;
 import com.nokanguyen.vertx.swagger.api.DemoApi;
 import com.nokanguyen.vertx.swagger.generator.OpenApiRoutePublisher;
 import com.nokanguyen.vertx.swagger.generator.Required;
@@ -12,6 +13,7 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise;
 import io.vertx.core.http.HttpServer;
 import io.vertx.core.http.HttpServerOptions;
+import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.StaticHandler;
 import org.apache.commons.lang3.reflect.FieldUtils;
